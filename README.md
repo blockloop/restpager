@@ -88,6 +88,10 @@ weblinks.create("http://website.com", 2 /*page*/, 10 /*pageCount*/, 100 /*totalC
      path: '/',
      href: 'http://website.com/',
      toString: [Function] },
-  linkHeader: '<http://website.com/?page=2&page_size=10>; rel="self",\n<http://website.com/?page=1&page_size=10>; rel="first",\n<http://website.com/?page=10&page_size=10>; rel="last",\n<http://website.com/?page=3&page_size=10>; rel="next",\n<http://website.com/?page=1&page_size=10>; rel="prev"' }
+  linkHeader: `<http://website.com/?page=2&page_size=10>; rel="self",
+               <http://website.com/?page=1&page_size=10>; rel="first",
+               <http://website.com/?page=10&page_size=10>; rel="last",
+               <http://website.com/?page=3&page_size=10>; rel="next",
+               <http://website.com/?page=1&page_size=10>; rel="prev"` }
 ```
 
