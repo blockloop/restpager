@@ -10,7 +10,7 @@ npm install --save weblinks
 
 ## Usage
 
-### create
+### Create
 
 ```javascript
 const weblinks = require("weblinks");
